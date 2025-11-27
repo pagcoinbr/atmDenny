@@ -10,7 +10,7 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 # Variáveis
-PROJECT_DIR="/home/pagcoin/atmDenny"
+PROJECT_DIR=$(dirname "$(readlink -f "$0")")
 API_DIR="$PROJECT_DIR/api-server"
 FRONTEND_DIR="$PROJECT_DIR/frontend-nextjs"
 LOG_DIR="$PROJECT_DIR/logs"

@@ -34,17 +34,18 @@ cd frontend-nextjs && npm install && cd ..
 
 # Cria aliases úteis
 echo -e "${BLUE}⚡ Criando aliases...${NC}"
-cat >> ~/.bashrc << 'EOF'
+PROJECT_DIR=$(pwd)
+cat >> ~/.bashrc << EOF
 
 # ATM Bitcoin Lightning - Aliases
-alias atm-start="cd /home/pagcoin/atmDenny && ./atm-coordinator.sh start"
-alias atm-stop="cd /home/pagcoin/atmDenny && ./atm-coordinator.sh stop"
-alias atm-restart="cd /home/pagcoin/atmDenny && ./atm-coordinator.sh restart"
-alias atm-status="cd /home/pagcoin/atmDenny && ./atm-coordinator.sh status"
-alias atm-simulate="cd /home/pagcoin/atmDenny && ./simulador.sh"
-alias atm-logs-api="cd /home/pagcoin/atmDenny && tail -f logs/api.log"
-alias atm-logs-frontend="cd /home/pagcoin/atmDenny && tail -f logs/frontend.log"
-alias atm-logs-serial="cd /home/pagcoin/atmDenny && tail -f logs/serial.log"
+alias atm-start="cd ${PROJECT_DIR} && ./atm-coordinator.sh start"
+alias atm-stop="cd ${PROJECT_DIR} && ./atm-coordinator.sh stop"
+alias atm-restart="cd ${PROJECT_DIR} && ./atm-coordinator.sh restart"
+alias atm-status="cd ${PROJECT_DIR} && ./atm-coordinator.sh status"
+alias atm-simulate="cd ${PROJECT_DIR} && ./simulador.sh"
+alias atm-logs-api="cd ${PROJECT_DIR} && tail -f logs/api.log"
+alias atm-logs-frontend="cd ${PROJECT_DIR} && tail -f logs/frontend.log"
+alias atm-logs-serial="cd ${PROJECT_DIR} && tail -f logs/serial.log"
 EOF
 
 echo -e "${GREEN}✅ Setup concluído!${NC}"

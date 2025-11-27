@@ -8,8 +8,8 @@
    - Environments: .env.local
 
  ✓ Starting...
- ✓ Ready in 663ms
- ○ Compiling / ...
- GET / 200 in 5.2s (compile: 5.1s, render: 123ms)
+ ✓ Ready in 656ms
  ⚠ Cross origin request detected from 100.78.46.97 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling / ...
+ GET / 200 in 434ms (compile: 284ms, render: 150ms)
