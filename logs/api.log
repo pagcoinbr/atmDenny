@@ -12,17 +12,3 @@
 📡 LNbits: https://wallet.br-ln.com
 💱 Taxa: 1 BRL = 300 sats
 =================================
-[OK] Nota identificada: R$ 2.00 (2 pulsos)
-[INFO] Total acumulado: R$ 2.00
-[INFO] Gerando LNURL-withdraw: R$ 2.00 (600 sats)
-[OK] LNURL-withdraw gerado: LNURL1DP68GURN8GHJ7AMPD3KX2APWVFEZ6MRW9E3K7MF0WA5HG6RYWFSHWTMPWP5J7A339AKXUATJDSH4VAJHG9JHSDMRGEXRVDNNFSUXVSTZGAEYVN30FCEXGU3KVAV85NJT0PH4XSTRG3U8JKJWXD4Q25NGC9
-[INFO] Saldo restante: R$ 0.00
-[INFO] Sessão resetada
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node server.js`[39m
-=================================
-🚀 Servidor rodando na porta 3001
-📡 LNbits: https://wallet.br-ln.com
-💱 Taxa: 1 BRL = 300 sats
-=================================
