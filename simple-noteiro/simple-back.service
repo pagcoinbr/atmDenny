@@ -1,0 +1,15 @@
+[Unit]
+Description=ATM Bitcoin Lightning - Backend GPIO Handler
+After=network.target
+
+[Service]
+Type=simple
+User=dennytorresrbp
+WorkingDirectory=/home/dennytorresrbp/Desktop/atmDenny/simple-noteiro
+ExecStart=/home/dennytorresrbp/Desktop/atmDenny/simple-noteiro/start-backend.sh
+Restart=on-failure
+RestartSec=5
+Environment=PATH=/home/dennytorresrbp/Desktop/atmDenny/simple-noteiro/venv/bin
+
+[Install]
+WantedBy=multi-user.target

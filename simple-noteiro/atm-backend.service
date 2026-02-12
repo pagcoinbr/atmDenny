@@ -1,0 +1,18 @@
+[Unit]
+Description=ATM Bitcoin Lightning Backend
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=dennytorresrbp
+ExecStart=/home/dennytorresrbp/Desktop/atmDenny/simple-noteiro/start-backend.sh
+WorkingDirectory=/home/dennytorresrbp/Desktop/atmDenny/simple-noteiro
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=atm-backend
+
+[Install]
+WantedBy=multi-user.target
